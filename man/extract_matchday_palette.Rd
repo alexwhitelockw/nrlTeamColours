@@ -19,6 +19,5 @@ The NRL team colour palette.
 Extract NRL Match Day Colour Palettes
 }
 \examples{
-extract_matchday_palette("Melbourne Storm", 2)
-extract_matchday_palette("Parramatta Eels", 3)
+extract_matchday_palette("Melbourne Storm", "Parramatta Eels")
 }

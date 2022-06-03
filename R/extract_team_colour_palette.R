@@ -24,12 +24,12 @@ extract_team_palette <- function(team_name=NULL, n_colours=1) {
             )
     }
     if (
-        n_colours > length(selected_palette)
+        n_colours > nrow(selected_palette)
     ) {
         message(
             n_colours,
             " colours selected, but the palette only has ",
-             length(selected_palette),
+             nrow(selected_palette),
             " colour/s."
         )
     }
@@ -76,4 +76,56 @@ extract_matchday_palette <- function(home_team=NULL, away_team=NULL) {
             paste(unique(nrl_team_colours$team_name), collapse = ", ")
             )
     }
+}
+
+#' Plot NRL Team Colour Palette
+#' 
+#' @param team_name An NRL team name.
+#' @return A visual of the NRL team colour palette.
+#' @examples
+#' plot_team_palette("Melbourne Storm")
+#' plot_team_palette("Parramatta Eels")
+
+#' @import ggplot2
+plot_team_palette <- function(team_name) {
+    team_name <- tolower(team_name)
+    if (
+        is.element(
+            team_name, tolower(nrl_team_colours$team_name)
+            )
+        ) {
+        selected_palette <-
+            nrl_team_colours[tolower(nrl_team_colours$team_name) == team_name, ]
+    }
+    else {
+        message("Team name not found. Try ",
+            paste(unique(nrl_team_colours$team_name), collapse = ", ")
+            )
+    }
+
+    selected_palette |>
+    ggplot() +
+        geom_tile(
+            aes(x = colour, y = 1, fill = colour),
+            colour = "black"
+        ) +
+        scale_fill_manual(values = selected_palette$colour) +
+        labs(
+            x = NULL,
+            y = NULL
+        ) +
+        theme(
+            axis.ticks = element_blank(),
+            legend.position = "none",
+            panel.background = element_rect(
+                colour = "white",
+                fill = "white"
+            ),
+            plot.background = element_rect(
+                colour = "white",
+                fill = "white"
+            ),
+            text = element_blank()
+        )
+
 }
