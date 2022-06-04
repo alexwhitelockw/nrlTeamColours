@@ -19,6 +19,10 @@ The NRL team colour palette.
 Extract NRL Team Colour Palette
 }
 \examples{
-extract_team_palette("Melbourne Storm", 2)
-extract_team_palette("Parramatta Eels", 3)
+\dontrun{
+ extract_team_palette("Melbourne Storm", 2)
+}
+\dontrun{
+ extract_team_palette("Parramatta Eels", 3)
+}
 }

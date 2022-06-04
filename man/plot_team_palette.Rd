@@ -16,6 +16,10 @@ A visual of the NRL team colour palette.
 Plot NRL Team Colour Palette
 }
 \examples{
-plot_team_palette("Melbourne Storm")
-plot_team_palette("Parramatta Eels")
+\dontrun{
+ plot_team_palette("Melbourne Storm")
+}
+\dontrun{
+ plot_team_palette("Parramatta Eels")
+}
 }
