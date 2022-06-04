@@ -68,7 +68,7 @@ extract_matchday_palette(home_team="South Sydney Rabbitohs", away_team="Wests Ti
 plot_team_palette("Brisbane Broncos")
 ```
 
-<img src="man/figures/README-brisbane_broncos_cp-1.png" title="plot of chunk brisbane_broncos_cp" alt="plot of chunk brisbane_broncos_cp" width="100%" />
+<img src="man/figures/README-brisbane_broncos_cp-1.png" title="plot of chunk brisbane_broncos_cp" alt="plot of chunk brisbane_broncos_cp" width="50%" height="50%" />
 
 ```r
 plot_team_palette("Canberra Raiders")

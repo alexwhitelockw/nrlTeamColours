@@ -56,7 +56,7 @@ extract_matchday_palette(home_team="South Sydney Rabbitohs", away_team="Wests Ti
 
 ### Visualising NRL Team Colour Palettes
 
-```{r brisbane_broncos_cp}
+```{r brisbane_broncos_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Brisbane Broncos")
 ```
 ```{r canberra_cp}
