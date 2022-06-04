@@ -72,11 +72,17 @@ plot_team_palette("Brisbane Broncos")
 
 <img src="man/figures/README-brisbane_broncos_cp-1.png" title="plot of chunk brisbane_broncos_cp" alt="plot of chunk brisbane_broncos_cp" width="50%" height="50%" />
 
+#### Canberra Raiders
+
+
 ```r
 plot_team_palette("Canberra Raiders")
 ```
 
 <img src="man/figures/README-canberra_cp-1.png" title="plot of chunk canberra_cp" alt="plot of chunk canberra_cp" width="50%" height="50%" />
+
+#### Canterbury-Bankstown Bulldogs
+
 
 ```r
 plot_team_palette("Canterbury-Bankstown Bulldogs")
@@ -84,11 +90,17 @@ plot_team_palette("Canterbury-Bankstown Bulldogs")
 
 <img src="man/figures/README-bulldogs_cp-1.png" title="plot of chunk bulldogs_cp" alt="plot of chunk bulldogs_cp" width="50%" height="50%" />
 
+#### Cronulla-Sutherland Sharks
+
+
 ```r
 plot_team_palette("Cronulla-Sutherland Sharks")
 ```
 
 <img src="man/figures/README-sharks_cp-1.png" title="plot of chunk sharks_cp" alt="plot of chunk sharks_cp" width="50%" height="50%" />
+
+#### Gold Coast Titans
+
 
 ```r
 plot_team_palette("Gold Coast Titans")
@@ -96,11 +108,17 @@ plot_team_palette("Gold Coast Titans")
 
 <img src="man/figures/README-titans_cp-1.png" title="plot of chunk titans_cp" alt="plot of chunk titans_cp" width="50%" height="50%" />
 
+#### Manly Warringah Sea Eagles
+
+
 ```r
 plot_team_palette("Manly Warringah Sea Eagles")
 ```
 
 <img src="man/figures/README-sea_eagles_cp-1.png" title="plot of chunk sea_eagles_cp" alt="plot of chunk sea_eagles_cp" width="50%" height="50%" />
+
+#### Melbourne Storm
+
 
 ```r
 plot_team_palette("Melbourne Storm")
@@ -108,11 +126,17 @@ plot_team_palette("Melbourne Storm")
 
 <img src="man/figures/README-storm_cp-1.png" title="plot of chunk storm_cp" alt="plot of chunk storm_cp" width="50%" height="50%" />
 
+#### Newcastle Knights
+
+
 ```r
 plot_team_palette("Newcastle Knights")
 ```
 
 <img src="man/figures/README-knights_cp-1.png" title="plot of chunk knights_cp" alt="plot of chunk knights_cp" width="50%" height="50%" />
+
+#### New Zealand Warriors
+
 
 ```r
 plot_team_palette("New Zealand Warriors")
@@ -120,11 +144,17 @@ plot_team_palette("New Zealand Warriors")
 
 <img src="man/figures/README-warriors_cp-1.png" title="plot of chunk warriors_cp" alt="plot of chunk warriors_cp" width="50%" height="50%" />
 
+#### North Queensland Cowboys
+
+
 ```r
 plot_team_palette("North Queensland Cowboys")
 ```
 
 <img src="man/figures/README-cowboys_cp-1.png" title="plot of chunk cowboys_cp" alt="plot of chunk cowboys_cp" width="50%" height="50%" />
+
+#### Parramatta Eels
+
 
 ```r
 plot_team_palette("Parramatta Eels")
@@ -132,11 +162,17 @@ plot_team_palette("Parramatta Eels")
 
 <img src="man/figures/README-eels_cp-1.png" title="plot of chunk eels_cp" alt="plot of chunk eels_cp" width="50%" height="50%" />
 
+#### Penrith Panthers
+
+
 ```r
 plot_team_palette("Penrith Panthers")
 ```
 
 <img src="man/figures/README-panthers_cp-1.png" title="plot of chunk panthers_cp" alt="plot of chunk panthers_cp" width="50%" height="50%" />
+
+#### South Sydney Rabbitohs
+
 
 ```r
 plot_team_palette("South Sydney Rabbitohs")
@@ -144,11 +180,17 @@ plot_team_palette("South Sydney Rabbitohs")
 
 <img src="man/figures/README-rabbitohs_cp-1.png" title="plot of chunk rabbitohs_cp" alt="plot of chunk rabbitohs_cp" width="50%" height="50%" />
 
+#### St. George Illawarra Dragons
+
+
 ```r
 plot_team_palette("St. George Illawarra Dragons")
 ```
 
 <img src="man/figures/README-dragons_cp-1.png" title="plot of chunk dragons_cp" alt="plot of chunk dragons_cp" width="50%" height="50%" />
+
+#### Sydney Roosters
+
 
 ```r
 plot_team_palette("Sydney Roosters")
@@ -156,11 +198,17 @@ plot_team_palette("Sydney Roosters")
 
 <img src="man/figures/README-roosters_cp-1.png" title="plot of chunk roosters_cp" alt="plot of chunk roosters_cp" width="50%" height="50%" />
 
+#### Wests Tigers
+
+
 ```r
 plot_team_palette("Wests Tigers")
 ```
 
 <img src="man/figures/README-tigers_cp-1.png" title="plot of chunk tigers_cp" alt="plot of chunk tigers_cp" width="50%" height="50%" />
+
+#### Dolphins
+
 
 ```r
 plot_team_palette("Dolphins (NRL)")
