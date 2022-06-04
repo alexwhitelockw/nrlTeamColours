@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of nrlTeamColours is to extract and visualise NRL team colour palettes.
+The goal of nrlTeamColours is to extract NRL team colour palettes using the information obtained from each team's [wiki](https://en.wikipedia.org/wiki/National_Rugby_League).
 
 ## Installation
 
@@ -58,7 +58,7 @@ extract_matchday_palette(home_team="South Sydney Rabbitohs", away_team="Wests Ti
 
 #### Brisbane Broncos
 
-```{r brisbane_broncos_cp, dpi=300, out.width="50%", out.height="50%"}
+```{r brisbane_broncos_cp, dpi=300, out.width="50%", out.height="50%", fig.align="centre"}
 plot_team_palette("Brisbane Broncos")
 ```
 ```{r canberra_cp, dpi=300, out.width="50%", out.height="50%"}

@@ -11,7 +11,7 @@ output: github_document
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of nrlTeamColours is to extract and visualise NRL team colour palettes.
+The goal of nrlTeamColours is to extract NRL team colour palettes using the information obtained from each team's [wiki](https://en.wikipedia.org/wiki/National_Rugby_League).
 
 ## Installation
 
