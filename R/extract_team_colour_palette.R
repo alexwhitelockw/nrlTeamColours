@@ -4,13 +4,11 @@
 #' @param n_colours The number of colours to be extracted from the
 #'  colour palette.
 #' @return The NRL team colour palette.
+#' @export
 #' @examples
-#' \dontrun{
-#'  extract_team_palette("Melbourne Storm", 2)
-#' }
-#' \dontrun{
-#'  extract_team_palette("Parramatta Eels", 3)
-#' }
+#' extract_team_palette("Melbourne Storm", 2)
+#' extract_team_palette("Parramatta Eels", 3)
+
 
 extract_team_palette <- function(team_name=NULL, n_colours=1) {
     team_name <- tolower(team_name)
@@ -55,10 +53,9 @@ extract_team_palette <- function(team_name=NULL, n_colours=1) {
 #' @param away_team The number of colours to be extracted from the
 #'  colour palette.
 #' @return The NRL team colour palette.
+#' @export
 #' @examples
-#' \dontrun{
 #' extract_matchday_palette("Melbourne Storm", "Parramatta Eels")
-#' }
 
 extract_matchday_palette <- function(home_team=NULL, away_team=NULL) {
     home_team <- tolower(home_team)
@@ -88,13 +85,10 @@ extract_matchday_palette <- function(home_team=NULL, away_team=NULL) {
 #' 
 #' @param team_name An NRL team name.
 #' @return A visual of the NRL team colour palette.
+#' @export
 #' @examples
-#' \dontrun{
-#'  plot_team_palette("Melbourne Storm")
-#' }
-#' \dontrun{
-#'  plot_team_palette("Parramatta Eels")
-#' }
+#' plot_team_palette("Melbourne Storm")
+#' plot_team_palette("Parramatta Eels")
 
 #' @import ggplot2
 plot_team_palette <- function(team_name) {
