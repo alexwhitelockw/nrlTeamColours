@@ -56,54 +56,56 @@ extract_matchday_palette(home_team="South Sydney Rabbitohs", away_team="Wests Ti
 
 ### Visualising NRL Team Colour Palettes
 
+#### Brisbane Broncos
+
 ```{r brisbane_broncos_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Brisbane Broncos")
 ```
-```{r canberra_cp}
+```{r canberra_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Canberra Raiders")
 ```
-```{r bulldogs_cp}
+```{r bulldogs_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Canterbury-Bankstown Bulldogs")
 ```
-```{r sharks_cp}
+```{r sharks_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Cronulla-Sutherland Sharks")
 ```
-```{r titans_cp}
+```{r titans_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Gold Coast Titans")
 ```
-```{r sea_eagles_cp}
+```{r sea_eagles_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Manly Warringah Sea Eagles")
 ```
-```{r storm_cp}
+```{r storm_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Melbourne Storm")
 ```
-```{r knights_cp}
+```{r knights_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Newcastle Knights")
 ```
-```{r warriors_cp}
+```{r warriors_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("New Zealand Warriors")
 ```
-```{r cowboys_cp}
+```{r cowboys_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("North Queensland Cowboys")
 ```
-```{r eels_cp}
+```{r eels_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Parramatta Eels")
 ```
-```{r panthers_cp}
+```{r panthers_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Penrith Panthers")
 ```
-```{r rabbitohs_cp}
+```{r rabbitohs_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("South Sydney Rabbitohs")
 ```
-```{r dragons_cp}
+```{r dragons_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("St. George Illawarra Dragons")
 ```
-```{r roosters_cp}
+```{r roosters_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Sydney Roosters")
 ```
-```{r tigers_cp}
+```{r tigers_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Wests Tigers")
 ```
-```{r dolphins_cp}
+```{r dolphins_cp, dpi=300, out.width="50%", out.height="50%"}
 plot_team_palette("Dolphins (NRL)")
 ```
