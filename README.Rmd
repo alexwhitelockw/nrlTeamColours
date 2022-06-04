@@ -29,28 +29,81 @@ You can install the development version of nrlTeamColours from [GitHub](https://
 devtools::install_github("alexwhitelockw/nrlTeamColours")
 ```
 
-## Example
+## Usage
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
+```{r load_package}
 library(nrlTeamColours)
-## basic example code
+
+print(unique(nrl_team_colours$team_name))
+```
+
+### Extracting NRL Team Colour Palette
+
+The main function is extract a colour palette for a given team name. The number of colours to extract can also be specified (defaults to one colour).
+
+```{r colour_palette}
+## Extracting the colour palette for Penrith Panthers
 extract_team_palette(team_name="Penrith Panthers", n_colours=4)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+### Extracting NRL Match Day Colours
 
-```{r cars}
-summary(cars)
+Colour palettes can also be extracted based on a given match. That is, colours for the home and away teams can be extracted using a single function.
+
+```{r matchday_colour_palette}
+extract_matchday_palette(home_team="South Sydney Rabbitohs", away_team="Wests Tigers")
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
+### Visualising NRL Team Colour Palettes
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r brisbane_broncos_cp}
+plot_team_palette("Brisbane Broncos")
 ```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+```{r canberra_cp}
+plot_team_palette("Canberra Raiders")
+```
+```{r bulldogs_cp}
+plot_team_palette("Canterbury-Bankstown Bulldogs")
+```
+```{r sharks_cp}
+plot_team_palette("Cronulla-Sutherland Sharks")
+```
+```{r titans_cp}
+plot_team_palette("Gold Coast Titans")
+```
+```{r sea_eagles_cp}
+plot_team_palette("Manly Warringah Sea Eagles")
+```
+```{r storm_cp}
+plot_team_palette("Melbourne Storm")
+```
+```{r knights_cp}
+plot_team_palette("Newcastle Knights")
+```
+```{r warriors_cp}
+plot_team_palette("New Zealand Warriors")
+```
+```{r cowboys_cp}
+plot_team_palette("North Queensland Cowboys")
+```
+```{r eels_cp}
+plot_team_palette("Parramatta Eels")
+```
+```{r panthers_cp}
+plot_team_palette("Penrith Panthers")
+```
+```{r rabbitohs_cp}
+plot_team_palette("South Sydney Rabbitohs")
+```
+```{r dragons_cp}
+plot_team_palette("St. George Illawarra Dragons")
+```
+```{r roosters_cp}
+plot_team_palette("Sydney Roosters")
+```
+```{r tigers_cp}
+plot_team_palette("Wests Tigers")
+```
+```{r dolphins_cp}
+plot_team_palette("Dolphins (NRL)")
+```
