@@ -37,7 +37,7 @@ print(unique(nrl_team_colours$team_name))
 #> [11] "Parramatta Eels"               "Penrith Panthers"             
 #> [13] "South Sydney Rabbitohs"        "St. George Illawarra Dragons" 
 #> [15] "Sydney Roosters"               "Wests Tigers"                 
-#> [17] "Dolphins (NRL)"
+#> [17] "Dolphins"
 ```
 
 ### Extracting NRL Team Colour Palette
@@ -48,7 +48,7 @@ The main function is extract a colour palette for a given team name. The number 
 ```r
 ## Extracting the colour palette for Penrith Panthers
 extract_team_palette(team_name="Penrith Panthers", n_colours=4)
-#> [1] "#000000" "#FF0000" "#FFFF00" "#008000"
+#> [1] "#010001" "#ff0101" "#feff00" "#008101"
 ```
 
 ### Extracting NRL Match Day Colours
@@ -58,7 +58,7 @@ Colour palettes can also be extracted based on a given match. That is, colours f
 
 ```r
 extract_matchday_palette(home_team="South Sydney Rabbitohs", away_team="Wests Tigers")
-#> [1] "#FF0000" "#008000" "#FFFFFF" "#000000" "#FFFFFF" "#FC7E00"
+#> [1] "#FF0000" "#018001" "#FFFFFF" "#010001" "#FEFFFF" "#fc7d05"
 ```
 
 ### Visualising NRL Team Colour Palettes
@@ -211,7 +211,7 @@ plot_team_palette("Wests Tigers")
 
 
 ```r
-plot_team_palette("Dolphins (NRL)")
+plot_team_palette("Dolphins")
 ```
 
 <img src="man/figures/README-dolphins_cp-1.png" title="plot of chunk dolphins_cp" alt="plot of chunk dolphins_cp" width="50%" height="50%" />

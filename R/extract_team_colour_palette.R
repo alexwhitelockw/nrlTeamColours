@@ -48,7 +48,7 @@ extract_team_palette <- function(team_name=NULL, n_colours=1) {
 }
 
 #' Extract NRL Match Day Colour Palettes
-#' 
+#'  
 #' @param home_team An NRL team name.
 #' @param away_team The number of colours to be extracted from the
 #'  colour palette.

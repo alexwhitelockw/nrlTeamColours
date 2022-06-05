@@ -155,5 +155,5 @@ plot_team_palette("Wests Tigers")
 #### Dolphins
 
 ```{r dolphins_cp, dpi=300, out.width="50%", out.height="50%"}
-plot_team_palette("Dolphins (NRL)")
+plot_team_palette("Dolphins")
 ```
